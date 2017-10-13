@@ -9,6 +9,7 @@ public class scr_Destroyer : MonoBehaviour
         if(other.tag == "Player")
         {
             Debug.Break();
+            Application.LoadLevel(0);
             return;
         }
 
